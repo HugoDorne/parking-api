@@ -1,0 +1,17 @@
+meta {
+  name: getParkingsNearby
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/api/parkings/nearby?latitude=46.58383455409422&longitude=0.33779491061805567&radius=0.4
+  body: none
+  auth: inherit
+}
+
+params:query {
+  latitude: 46.58383455409422
+  longitude: 0.33779491061805567
+  radius: 0.4
+}

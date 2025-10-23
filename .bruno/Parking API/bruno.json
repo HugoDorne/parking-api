@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Parking API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
