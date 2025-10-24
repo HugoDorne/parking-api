@@ -232,6 +232,8 @@ curl http://localhost:8080/api/parkings
 curl "http://localhost:8080/api/parkings/nearby?latitude=46.580224&longitude=0.340375&radius=5"
 ```
 
+ou via la collection d'API Bruno disponible dans le dossier **.bruno**
+
 ### Configuration
 
 La configuration se trouve dans `application.properties` :
